@@ -1,0 +1,8 @@
+def main(): print("🚦 Lancement de la capture de la webcam")
+image = capture_webcam() # Appel de la fonction 
+if image:
+ print(f"✅ Capture réussie : {image}") 
+else:
+ print("❌ Aucune image capturée") 
+if __name__ == "__main__":
+main()
