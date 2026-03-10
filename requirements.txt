@@ -1,0 +1,7 @@
+easyocr
+opencv-python
+numpy
+flask
+flask-cors
+torch
+pillow
