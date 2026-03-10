@@ -1,10 +1,13 @@
-import os
+# config.py
 
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+# Base de données
+DB_NAME = "acces_vehicules.db"
 
-DB_PATH = os.path.join(
-    BASE_DIR,      # backend/
-    "..",          # gestion_acess_vehicules/
-    "database",    # database/
-    "acces.db"     # acces.db
-)
+# Paramètres OCR
+LANGUES_OCR = ['fr', 'ar']
+
+# Caméra
+CAMERA_INDEX = 0   # webcam du PC
+
+# Délai capture (non utilisé ici)
+CAPTURE_DELAY = 2
